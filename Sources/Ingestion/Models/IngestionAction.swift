@@ -3,7 +3,7 @@
 
 import Foundation
 #if canImport(Core)
-    import Core
+    import AlgoliaCore
 #endif
 
 /// Which indexing operation to perform:  - `addObject`: adds records to an index.    Equivalent to the \"Add a new
