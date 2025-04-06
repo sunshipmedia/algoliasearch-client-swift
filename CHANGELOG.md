@@ -1,3 +1,82 @@
+## [9.18.2](https://github.com/algolia/algoliasearch-client-swift/compare/9.18.1...9.18.2)
+
+- [ac400354a9](https://github.com/algolia/api-clients-automation/commit/ac400354a9) fix(specs): make the updateAt non-null in ingestion ([#4697](https://github.com/algolia/api-clients-automation/pull/4697)) by [@millotp](https://github.com/millotp/)
+
+## [9.18.1](https://github.com/algolia/algoliasearch-client-swift/compare/9.18.0...9.18.1)
+
+- [a51683025e](https://github.com/algolia/api-clients-automation/commit/a51683025e) chore: deprecate mcm methods ([#4694](https://github.com/algolia/api-clients-automation/pull/4694)) by [@kai687](https://github.com/kai687/)
+
+## [9.18.0](https://github.com/algolia/algoliasearch-client-swift/compare/9.17.0...9.18.0)
+
+- [c3addb449](https://github.com/algolia/api-clients-automation/commit/c3addb449) feat(specs): add CT Query predicate property ([#4654](https://github.com/algolia/api-clients-automation/pull/4654)) by [@morganleroi](https://github.com/morganleroi/)
+
+## [9.17.0](https://github.com/algolia/algoliasearch-client-swift/compare/9.16.0...9.17.0)
+
+- [26457d0ec8](https://github.com/algolia/api-clients-automation/commit/26457d0ec8) feat(specs): add the owner attributes to ingestion resources ([#4616](https://github.com/algolia/api-clients-automation/pull/4616)) by [@millotp](https://github.com/millotp/)
+- [cdf605e369](https://github.com/algolia/api-clients-automation/commit/cdf605e369) chore(deps): dependencies 2025-03-24 ([#4617](https://github.com/algolia/api-clients-automation/pull/4617)) by [@algolia-bot](https://github.com/algolia-bot/)
+
+## [9.16.0](https://github.com/algolia/algoliasearch-client-swift/compare/9.15.0...9.16.0)
+
+- [ab623194e](https://github.com/algolia/api-clients-automation/commit/ab623194e) feat(specs): add `subscriptionAction` to ingestion specs ([#4587](https://github.com/algolia/api-clients-automation/pull/4587)) by [@shortcuts](https://github.com/shortcuts/)
+
+## [9.15.0](https://github.com/algolia/algoliasearch-client-swift/compare/9.14.1...9.15.0)
+
+- [92bd911848](https://github.com/algolia/api-clients-automation/commit/92bd911848) chore(scripts): point jira issues to another epic ([#4505](https://github.com/algolia/api-clients-automation/pull/4505)) by [@millotp](https://github.com/millotp/)
+- [043fb81ce6](https://github.com/algolia/api-clients-automation/commit/043fb81ce6) feat(clients): missing helpers ([#4486](https://github.com/algolia/api-clients-automation/pull/4486)) by [@Fluf22](https://github.com/Fluf22/)
+- [97d2722bc9](https://github.com/algolia/api-clients-automation/commit/97d2722bc9) fix(specs): Increase optionalWords visibility in docs ([#4559](https://github.com/algolia/api-clients-automation/pull/4559)) by [@gazconroy](https://github.com/gazconroy/)
+
+## [9.14.1](https://github.com/algolia/algoliasearch-client-swift/compare/9.14.0...9.14.1)
+
+- [506b8a5636](https://github.com/algolia/api-clients-automation/commit/506b8a5636) fix(specs): responseFields description ([#4399](https://github.com/algolia/api-clients-automation/pull/4399)) by [@kai687](https://github.com/kai687/)
+- [09e657fa76](https://github.com/algolia/api-clients-automation/commit/09e657fa76) fix(specs): add a linter to assert that type is present ([#4393](https://github.com/algolia/api-clients-automation/pull/4393)) by [@millotp](https://github.com/millotp/)
+- [397ff172a4](https://github.com/algolia/api-clients-automation/commit/397ff172a4) fix(swift): don't overwrite decimal encoding/decoding methods ([#4428](https://github.com/algolia/api-clients-automation/pull/4428)) by [@Fluf22](https://github.com/Fluf22/)
+
+## [9.14.0](https://github.com/algolia/algoliasearch-client-swift/compare/9.13.0...9.14.0)
+
+- [5aa57630d6](https://github.com/algolia/api-clients-automation/commit/5aa57630d6) feat(specs): only use shortname in the source input ([#4287](https://github.com/algolia/api-clients-automation/pull/4287)) by [@millotp](https://github.com/millotp/)
+- [1e847f4caf](https://github.com/algolia/api-clients-automation/commit/1e847f4caf) fix(specs): move customRanking and keepDiacriticsOnCharacters to indexSettings ([#4324](https://github.com/algolia/api-clients-automation/pull/4324)) by [@millotp](https://github.com/millotp/)
+- [57d528a481](https://github.com/algolia/api-clients-automation/commit/57d528a481) feat(clients): endpoint level timeout part 2 ([#4318](https://github.com/algolia/api-clients-automation/pull/4318)) by [@Fluf22](https://github.com/Fluf22/)
+- [58cc5449f5](https://github.com/algolia/api-clients-automation/commit/58cc5449f5) fix(specs): optionalFilters additional explanation ([#4353](https://github.com/algolia/api-clients-automation/pull/4353)) by [@kai687](https://github.com/kai687/)
+- [700441942e](https://github.com/algolia/api-clients-automation/commit/700441942e) fix(specs): deprecate task v1 ([#4327](https://github.com/algolia/api-clients-automation/pull/4327)) by [@millotp](https://github.com/millotp/)
+- [3b129e01df](https://github.com/algolia/api-clients-automation/commit/3b129e01df) fix(specs): ingestion expected and received events type ([#4356](https://github.com/algolia/api-clients-automation/pull/4356)) by [@shortcuts](https://github.com/shortcuts/)
+- [22167b8e68](https://github.com/algolia/api-clients-automation/commit/22167b8e68) fix(specs): extend Analytics descriptions ([#4360](https://github.com/algolia/api-clients-automation/pull/4360)) by [@gazconroy](https://github.com/gazconroy/)
+- [5b14906c1e](https://github.com/algolia/api-clients-automation/commit/5b14906c1e) fix(specs): remove the processing outcome ([#4359](https://github.com/algolia/api-clients-automation/pull/4359)) by [@millotp](https://github.com/millotp/)
+- [952639f0fb](https://github.com/algolia/api-clients-automation/commit/952639f0fb) fix(specs): adjust style for banner descriptions ([#4362](https://github.com/algolia/api-clients-automation/pull/4362)) by [@kai687](https://github.com/kai687/)
+
+## [9.13.0](https://github.com/algolia/algoliasearch-client-swift/compare/9.12.2...9.13.0)
+
+- [b569646304](https://github.com/algolia/api-clients-automation/commit/b569646304) fix(specs): drop singer from ingestion specs ([#4281](https://github.com/algolia/api-clients-automation/pull/4281)) by [@shortcuts](https://github.com/shortcuts/)
+- [37223c9779](https://github.com/algolia/api-clients-automation/commit/37223c9779) feat(clients): cleanup after replaceAllObjects failure ([#3824](https://github.com/algolia/api-clients-automation/pull/3824)) by [@millotp](https://github.com/millotp/)
+- [47b567fd0d](https://github.com/algolia/api-clients-automation/commit/47b567fd0d) chore(deps): dependencies 2025-01-06 ([#4299](https://github.com/algolia/api-clients-automation/pull/4299)) by [@algolia-bot](https://github.com/algolia-bot/)
+- [5328ce8333](https://github.com/algolia/api-clients-automation/commit/5328ce8333) feat(specs): add notification settings to tasks ([#4297](https://github.com/algolia/api-clients-automation/pull/4297)) by [@millotp](https://github.com/millotp/)
+- [e7b3898f06](https://github.com/algolia/api-clients-automation/commit/e7b3898f06) feat(clients): add optionnal scopes to replaceAllObjects ([#4296](https://github.com/algolia/api-clients-automation/pull/4296)) by [@millotp](https://github.com/millotp/)
+- [47193ad3d1](https://github.com/algolia/api-clients-automation/commit/47193ad3d1) chore: revert release ([#4314](https://github.com/algolia/api-clients-automation/pull/4314)) by [@shortcuts](https://github.com/shortcuts/)
+
+## [9.12.2](https://github.com/algolia/algoliasearch-client-swift/compare/9.12.1...9.12.2)
+
+- [0481473fe0](https://github.com/algolia/api-clients-automation/commit/0481473fe0) chore: trigger auto close pr ([#4250](https://github.com/algolia/api-clients-automation/pull/4250)) by [@shortcuts](https://github.com/shortcuts/)
+
+## [9.12.1](https://github.com/algolia/algoliasearch-client-swift/compare/9.12.0...9.12.1)
+
+- [cd59f445e](https://github.com/algolia/api-clients-automation/commit/cd59f445e) fix(specs): enable watcher for push ([#4229](https://github.com/algolia/api-clients-automation/pull/4229)) by [@shortcuts](https://github.com/shortcuts/)
+- [baf7d6f4d](https://github.com/algolia/api-clients-automation/commit/baf7d6f4d) fix(specs): add `ignoreConjugations` to `AlternativesAsExact` ([#4230](https://github.com/algolia/api-clients-automation/pull/4230)) by [@shortcuts](https://github.com/shortcuts/)
+
+## [9.12.0](https://github.com/algolia/algoliasearch-client-swift/compare/9.11.0...9.12.0)
+
+- [866d859f8](https://github.com/algolia/api-clients-automation/commit/866d859f8) fix(specs): different summaries for saveObject/addOrUpdate methods ([#4223](https://github.com/algolia/api-clients-automation/pull/4223)) by [@kai687](https://github.com/kai687/)
+- [baf16c689](https://github.com/algolia/api-clients-automation/commit/baf16c689) feat(specs): add `watch` to `pushTask` ingestion ([#4224](https://github.com/algolia/api-clients-automation/pull/4224)) by [@shortcuts](https://github.com/shortcuts/)
+
+## [9.11.0](https://github.com/algolia/algoliasearch-client-swift/compare/9.10.2...9.11.0)
+
+- [068fdacb5](https://github.com/algolia/api-clients-automation/commit/068fdacb5) feat(specs): add info and link about indexing rate limits ([#4136](https://github.com/algolia/api-clients-automation/pull/4136)) by [@kai687](https://github.com/kai687/)
+- [9e0235697](https://github.com/algolia/api-clients-automation/commit/9e0235697) fix(specs): `nb_api_calls` in `getLogs` response is optional ([#4142](https://github.com/algolia/api-clients-automation/pull/4142)) by [@shortcuts](https://github.com/shortcuts/)
+- [b728c5f25](https://github.com/algolia/api-clients-automation/commit/b728c5f25) fix(specs): `consequence` is required when saving rules ([#4146](https://github.com/algolia/api-clients-automation/pull/4146)) by [@shortcuts](https://github.com/shortcuts/)
+- [afd94fac8](https://github.com/algolia/api-clients-automation/commit/afd94fac8) fix(specs): `saveRule` response type ([#4170](https://github.com/algolia/api-clients-automation/pull/4170)) by [@shortcuts](https://github.com/shortcuts/)
+- [2325c61b8](https://github.com/algolia/api-clients-automation/commit/2325c61b8) feat(clients): allow batch size on objects helper ([#4172](https://github.com/algolia/api-clients-automation/pull/4172)) by [@shortcuts](https://github.com/shortcuts/)
+- [aae74cb38](https://github.com/algolia/api-clients-automation/commit/aae74cb38) fix(specs): remove SFCC source type ([#4190](https://github.com/algolia/api-clients-automation/pull/4190)) by [@millotp](https://github.com/millotp/)
+- [254052857](https://github.com/algolia/api-clients-automation/commit/254052857) fix(specs): add sourceType to listTasks ([#4193](https://github.com/algolia/api-clients-automation/pull/4193)) by [@millotp](https://github.com/millotp/)
+- [106d64313](https://github.com/algolia/api-clients-automation/commit/106d64313) feat(generators): allow per-spec timeouts ([#4173](https://github.com/algolia/api-clients-automation/pull/4173)) by [@shortcuts](https://github.com/shortcuts/)
+
 ## [9.10.2](https://github.com/algolia/algoliasearch-client-swift/compare/9.10.1...9.10.2)
 
 - [989a7277b](https://github.com/algolia/api-clients-automation/commit/989a7277b) fix(swift): prefix `Task` and `LogLevel` models with the client names ([#4132](https://github.com/algolia/api-clients-automation/pull/4132)) by [@Fluf22](https://github.com/Fluf22/)

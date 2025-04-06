@@ -54,7 +54,7 @@ open class PersonalizationClient {
         return body
     }
 
-    // This method allow you to send requests to the Algolia REST API.
+    // This method lets you send requests to the Algolia REST API.
     //
     //
     // - parameter path: (path) Path of the endpoint, anything after \"/1\" must be specified.
@@ -90,7 +90,10 @@ open class PersonalizationClient {
             method: "DELETE",
             path: resourcePath,
             data: body,
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -116,7 +119,7 @@ open class PersonalizationClient {
         return body
     }
 
-    // This method allow you to send requests to the Algolia REST API.
+    // This method lets you send requests to the Algolia REST API.
     //
     //
     // - parameter path: (path) Path of the endpoint, anything after \"/1\" must be specified.
@@ -152,7 +155,10 @@ open class PersonalizationClient {
             method: "GET",
             path: resourcePath,
             data: body,
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -181,7 +187,7 @@ open class PersonalizationClient {
         return body
     }
 
-    // This method allow you to send requests to the Algolia REST API.
+    // This method lets you send requests to the Algolia REST API.
     //
     //
     // - parameter path: (path) Path of the endpoint, anything after \"/1\" must be specified.
@@ -220,7 +226,10 @@ open class PersonalizationClient {
             method: "POST",
             path: resourcePath,
             data: body ?? AnyCodable(),
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -249,7 +258,7 @@ open class PersonalizationClient {
         return body
     }
 
-    // This method allow you to send requests to the Algolia REST API.
+    // This method lets you send requests to the Algolia REST API.
     //
     //
     // - parameter path: (path) Path of the endpoint, anything after \"/1\" must be specified.
@@ -288,7 +297,10 @@ open class PersonalizationClient {
             method: "PUT",
             path: resourcePath,
             data: body ?? AnyCodable(),
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -350,7 +362,10 @@ open class PersonalizationClient {
             method: "DELETE",
             path: resourcePath,
             data: body,
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -389,7 +404,10 @@ open class PersonalizationClient {
             method: "GET",
             path: resourcePath,
             data: body,
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -450,7 +468,10 @@ open class PersonalizationClient {
             method: "GET",
             path: resourcePath,
             data: body,
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -496,7 +517,10 @@ open class PersonalizationClient {
             method: "POST",
             path: resourcePath,
             data: body,
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 }

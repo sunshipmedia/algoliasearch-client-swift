@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -105,7 +105,6 @@
 		23563A1A205275F46EED41E4 /* SourceUpdateInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7385CEC74B1E251F691EAA30 /* SourceUpdateInput.swift */; };
 		239DA493EF89E93FCDA881DD /* RunType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2C1A596916B4E19C56FAA8 /* RunType.swift */; };
 		23B12AA824E1DFACCE61012A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 391CAA02B278D91253C98985 /* PrivacyInfo.xcprivacy */; };
-		244C368E88D3F22EBF20FB28 /* DockerRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D6FB1BF5FE922B2831CF2 /* DockerRegistry.swift */; };
 		247C72A0ABA9B02BFAEA851D /* SearchUserIdsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023987F2A248FE4778481C0B /* SearchUserIdsResponse.swift */; };
 		2482401FF076FF79A2D7F36E /* SearchRulesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6671ADC7F2505010BA7D7806 /* SearchRulesResponse.swift */; };
 		24B40DB7A35FEFA983FE8878 /* SearchResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1798BA69FA23C0AD67A80EF5 /* SearchResponses.swift */; };
@@ -266,7 +265,6 @@
 		69CDC8F8ECB1340C32287516 /* GetObjectsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DCBF94AE6A4DBF3E557DD4 /* GetObjectsRequest.swift */; };
 		69DDF274D6363EF2E17AE840 /* TransformationCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC6ACC8840CDD8ECE2FDE6C /* TransformationCreate.swift */; };
 		6A5D4DBF396FA0ED2858DA0A /* BatchDictionaryEntriesParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE86274AE37EF6D7BDADE8 /* BatchDictionaryEntriesParams.swift */; };
-		6A74F5BCC22F5236290B64E9 /* DockerImageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760F5D7DF118C26F44D916D /* DockerImageType.swift */; };
 		6B15B9E37AEFF38B4964733F /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016A5C0EC3033A6AF7B0684 /* Variant.swift */; };
 		6B4FF7D129D22B5A3984BEFC /* AuthBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513F34811368B581757A081 /* AuthBasic.swift */; };
 		6B9A4668B1E792226EC0E9D1 /* RecommendTaskStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712B8F23AA736D7761A626D6 /* RecommendTaskStatus.swift */; };
@@ -1236,7 +1234,7 @@
 		38182FF97BB2FDFFFD3950E9 /* TaskSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSearch.swift; sourceTree = "<group>"; };
 		385A5E23A47B790120AC99EA /* SearchDictionaryEntriesParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDictionaryEntriesParams.swift; sourceTree = "<group>"; };
 		389E1F64DAA66DF1CDF1C389 /* RecommendAdvancedSyntaxFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendAdvancedSyntaxFeatures.swift; sourceTree = "<group>"; };
-		391CAA02B278D91253C98985 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		391CAA02B278D91253C98985 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3A44A3397ED96FE3AD5D7964 /* IncidentEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentEntry.swift; sourceTree = "<group>"; };
 		3AF15953D337392A8D523A95 /* SearchHighlightResultOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHighlightResultOption.swift; sourceTree = "<group>"; };
 		3BCE634A9196C27887A38217 /* SearchMethodParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMethodParams.swift; sourceTree = "<group>"; };
@@ -1668,7 +1666,6 @@
 		D5A783EB4A7D32643ECE8965 /* SearchAnchoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAnchoring.swift; sourceTree = "<group>"; };
 		D631D967B2C82C67FC9F2B9B /* StreamingTrigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingTrigger.swift; sourceTree = "<group>"; };
 		D63EB83B482CA92DAA7A633D /* DictionaryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryEntry.swift; sourceTree = "<group>"; };
-		D760F5D7DF118C26F44D916D /* DockerImageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerImageType.swift; sourceTree = "<group>"; };
 		D7741877B9F0D7E9E69BDD9E /* PurchaseEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseEvent.swift; sourceTree = "<group>"; };
 		D7A3647222E005D7257D410F /* TopSearchWithRevenueAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSearchWithRevenueAnalytics.swift; sourceTree = "<group>"; };
 		D7A46C7BE928F7D728E9AF92 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
@@ -1707,7 +1704,6 @@
 		E346E8738E6F2BBE02E7181A /* AuthenticationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationType.swift; sourceTree = "<group>"; };
 		E461F0061BF05C4625ADC249 /* MappingFieldDirective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingFieldDirective.swift; sourceTree = "<group>"; };
 		E47B035AE7886819914BE211 /* Gzip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gzip.swift; sourceTree = "<group>"; };
-		E48D6FB1BF5FE922B2831CF2 /* DockerRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerRegistry.swift; sourceTree = "<group>"; };
 		E4D2A56BAF6A0A7746CBC3DE /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
 		E55BB76CBFE350B59F299441 /* EmptySearchFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySearchFilter.swift; sourceTree = "<group>"; };
 		E5B21C724D5679853C79F6E8 /* SearchClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchClient.swift; sourceTree = "<group>"; };
@@ -2427,8 +2423,6 @@
 				60CEF139F491419FF013D2D7 /* DestinationType.swift */,
 				1CE96A14B7954963DB62B689 /* DestinationUpdate.swift */,
 				B16AE844CFD01A27D1A9A9C4 /* DestinationUpdateResponse.swift */,
-				D760F5D7DF118C26F44D916D /* DockerImageType.swift */,
-				E48D6FB1BF5FE922B2831CF2 /* DockerRegistry.swift */,
 				17C40B97C26766D801657F86 /* DockerStreams.swift */,
 				0297365A3AA55D49D7980A13 /* DockerStreamsInput.swift */,
 				15E0C94299E1143F1C0E36F9 /* DockerStreamsSyncMode.swift */,
@@ -3283,8 +3277,6 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 5C141AD41179678F4DD914C2 /* Build configuration list for PBXProject "AlgoliaSearchClient" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -3531,8 +3523,6 @@
 				F4332C2C18962C869373E911 /* DestinationType.swift in Sources */,
 				EB4B51195B99B4D4C24320E1 /* DestinationUpdate.swift in Sources */,
 				EC5FC1C94AC86A565BD755B2 /* DestinationUpdateResponse.swift in Sources */,
-				6A74F5BCC22F5236290B64E9 /* DockerImageType.swift in Sources */,
-				244C368E88D3F22EBF20FB28 /* DockerRegistry.swift in Sources */,
 				4EE2F7F569F46209B3182A1B /* DockerStreams.swift in Sources */,
 				AFB2E4E26B8230978971844A /* DockerStreamsInput.swift in Sources */,
 				A53D2E43E5E942E636FB7B89 /* DockerStreamsSyncMode.swift in Sources */,
@@ -4418,42 +4408,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -4523,42 +4486,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -4610,42 +4546,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -4802,42 +4711,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -5132,42 +5014,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -5219,42 +5074,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -5306,42 +5134,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -5498,42 +5299,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -5861,42 +5635,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -6071,42 +5818,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -6318,16 +6038,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-package-name",
-					AlgoliaSearchClient,
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -package-name AlgoliaSearchClient";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					SWIFT_PACKAGE,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_SUPPRESS_WARNINGS = YES;
 				USE_HEADERMAP = NO;
 				VALIDATE_PRODUCT = YES;
@@ -6351,42 +6064,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -6543,42 +6229,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -7098,42 +6757,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -7464,42 +7096,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -7848,42 +7453,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -7953,42 +7531,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -8370,42 +7921,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -8693,16 +8217,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-package-name",
-					AlgoliaSearchClient,
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -package-name AlgoliaSearchClient";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-					"$(inherited)",
-					SWIFT_PACKAGE,
-				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_SUPPRESS_WARNINGS = YES;
 				USE_HEADERMAP = NO;
 			};
@@ -8899,42 +8416,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;
@@ -9439,42 +8929,15 @@
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = (
-					"$(inherited)",
-					DEBUG,
-				);
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=appletvsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphoneos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=iphonesimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=macosx*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchos*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=watchsimulator*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xros*]" = "$(inherited) DEBUG";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[sdk=xrsimulator*]" = "$(inherited) DEBUG";
 				"SWIFT_COMPILATION_MODE[sdk=appletvos*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=appletvsimulator*]" = singlefile;
 				"SWIFT_COMPILATION_MODE[sdk=iphoneos*]" = singlefile;

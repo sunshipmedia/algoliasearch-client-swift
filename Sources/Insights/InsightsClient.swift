@@ -54,7 +54,7 @@ open class InsightsClient {
         return body
     }
 
-    // This method allow you to send requests to the Algolia REST API.
+    // This method lets you send requests to the Algolia REST API.
     //
     //
     // - parameter path: (path) Path of the endpoint, anything after \"/1\" must be specified.
@@ -90,7 +90,10 @@ open class InsightsClient {
             method: "DELETE",
             path: resourcePath,
             data: body,
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -116,7 +119,7 @@ open class InsightsClient {
         return body
     }
 
-    // This method allow you to send requests to the Algolia REST API.
+    // This method lets you send requests to the Algolia REST API.
     //
     //
     // - parameter path: (path) Path of the endpoint, anything after \"/1\" must be specified.
@@ -152,7 +155,10 @@ open class InsightsClient {
             method: "GET",
             path: resourcePath,
             data: body,
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -181,7 +187,7 @@ open class InsightsClient {
         return body
     }
 
-    // This method allow you to send requests to the Algolia REST API.
+    // This method lets you send requests to the Algolia REST API.
     //
     //
     // - parameter path: (path) Path of the endpoint, anything after \"/1\" must be specified.
@@ -220,7 +226,10 @@ open class InsightsClient {
             method: "POST",
             path: resourcePath,
             data: body ?? AnyCodable(),
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -249,7 +258,7 @@ open class InsightsClient {
         return body
     }
 
-    // This method allow you to send requests to the Algolia REST API.
+    // This method lets you send requests to the Algolia REST API.
     //
     //
     // - parameter path: (path) Path of the endpoint, anything after \"/1\" must be specified.
@@ -288,7 +297,10 @@ open class InsightsClient {
             method: "PUT",
             path: resourcePath,
             data: body ?? AnyCodable(),
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -301,8 +313,7 @@ open class InsightsClient {
 
     /// Deletes all events related to the specified user token from events metrics and analytics. The deletion is
     /// asynchronous, and processed within 48 hours. To delete a personalization user profile, see `Delete a user
-    /// profile`
-    /// in the Personalization API.
+    /// profile` in the Personalization API.
     ///
     ///
     /// - parameter userToken: (path) User token for which to delete all associated events.
@@ -337,7 +348,10 @@ open class InsightsClient {
             method: "DELETE",
             path: resourcePath,
             data: body,
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 
@@ -383,7 +397,10 @@ open class InsightsClient {
             method: "POST",
             path: resourcePath,
             data: body,
-            requestOptions: RequestOptions(headers: headers, queryParameters: queryParameters) + userRequestOptions
+            requestOptions: RequestOptions(
+                headers: headers,
+                queryParameters: queryParameters
+            ) + userRequestOptions
         )
     }
 }
