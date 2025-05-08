@@ -2838,7 +2838,8 @@ open class SearchClient {
     // key
     // and its value being an object with the following properties:  - _operation: the operation to apply on the
     // attribute - value: the right-hand side argument to the operation, for example, increment or decrement step, value
-    // to add or remove.  This operation is subject to [indexing rate limits](https://support.algolia.com/hc/en-us/articles/4406975251089-Is-there-a-rate-limit-for-indexing-on-Algolia).
+    // to add or remove.  When updating multiple attributes or using multiple operations targeting the same record, you
+    // should use a single partial update for faster processing.  This operation is subject to [indexing rate limits](https://support.algolia.com/hc/en-us/articles/4406975251089-Is-there-a-rate-limit-for-indexing-on-Algolia).
     // Required API Key ACLs:
     //  - addObject
     //
@@ -3540,7 +3541,8 @@ open class SearchClient {
     // Sends multiple search requests to one or more indices.  This can be useful in these cases:  - Different indices
     // for different purposes, such as, one index for products, another one for marketing content. - Multiple searches
     // to
-    // the same index—for example, with different filters.
+    // the same index—for example, with different filters.  Use the helper `searchForHits` or `searchForFacets` to get
+    // the results in a more convenient format, if you already know the return type you want.
     // Required API Key ACLs:
     //  - search
     //

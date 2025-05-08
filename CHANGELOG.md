@@ -1,3 +1,19 @@
+## [9.18.5](https://github.com/algolia/algoliasearch-client-swift/compare/9.18.4...9.18.5)
+
+- [53ac749807](https://github.com/algolia/api-clients-automation/commit/53ac749807) chore(deps): dependencies 2025-04-28 ([#4785](https://github.com/algolia/api-clients-automation/pull/4785)) by [@algolia-bot](https://github.com/algolia-bot/)
+
+## [9.18.4](https://github.com/algolia/algoliasearch-client-swift/compare/9.18.3...9.18.4)
+
+- [369c14232](https://github.com/algolia/api-clients-automation/commit/369c14232) fix(specs): condition cant be numeric filter ([#4726](https://github.com/algolia/api-clients-automation/pull/4726)) by [@kai687](https://github.com/kai687/)
+- [1911d224b](https://github.com/algolia/api-clients-automation/commit/1911d224b) fix(specs): event.status can be null ([#4727](https://github.com/algolia/api-clients-automation/pull/4727)) by [@millotp](https://github.com/millotp/)
+- [a18b555b4](https://github.com/algolia/api-clients-automation/commit/a18b555b4) fix(specs): add missing recordType collection ([#4728](https://github.com/algolia/api-clients-automation/pull/4728)) by [@millotp](https://github.com/millotp/)
+- [4570f18b8](https://github.com/algolia/api-clients-automation/commit/4570f18b8) fix(clients): correctly deserialize SearchResult ([#4756](https://github.com/algolia/api-clients-automation/pull/4756)) by [@millotp](https://github.com/millotp/)
+
+## [9.18.3](https://github.com/algolia/algoliasearch-client-swift/compare/9.18.2...9.18.3)
+
+- [a922dca5a](https://github.com/algolia/api-clients-automation/commit/a922dca5a) docs(partialUpdate): add note about multiple operations ([#4721](https://github.com/algolia/api-clients-automation/pull/4721)) by [@Jerska](https://github.com/Jerska/)
+- [e150cd934](https://github.com/algolia/api-clients-automation/commit/e150cd934) fix(specs): message is not required in WatchResponse ([#4723](https://github.com/algolia/api-clients-automation/pull/4723)) by [@millotp](https://github.com/millotp/)
+
 ## [9.18.2](https://github.com/algolia/algoliasearch-client-swift/compare/9.18.1...9.18.2)
 
 - [ac400354a9](https://github.com/algolia/api-clients-automation/commit/ac400354a9) fix(specs): make the updateAt non-null in ingestion ([#4697](https://github.com/algolia/api-clients-automation/pull/4697)) by [@millotp](https://github.com/millotp/)
