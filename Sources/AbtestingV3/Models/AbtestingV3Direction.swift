@@ -3,7 +3,7 @@
 
 import Foundation
 #if canImport(Core)
-    import Core
+    import AlgoliaCore
 #endif
 
 /// Sort order for A/B tests by start date. Use 'asc' for ascending or 'desc' for descending. Active A/B tests are

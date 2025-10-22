@@ -3,7 +3,7 @@
 
 import Foundation
 #if canImport(Core)
-    import Core
+    import AlgoliaCore
 #endif
 
 /// The input for the transformation, which can be either code or a no-code configuration.

@@ -109,7 +109,7 @@ You can now import the Algolia API client in your project and play with it.
 
 ```swift
 #if canImport(Core)
-    import Core
+    import AlgoliaCore
 #endif
 import Search
 

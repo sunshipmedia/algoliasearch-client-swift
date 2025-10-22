@@ -3,7 +3,7 @@
 
 import Foundation
 #if canImport(Core)
-    import Core
+    import AlgoliaCore
 #endif
 
 /// Widgets returned from any rules that are applied to the current search.

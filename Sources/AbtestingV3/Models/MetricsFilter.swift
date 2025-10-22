@@ -3,7 +3,7 @@
 
 import Foundation
 #if canImport(Core)
-    import Core
+    import AlgoliaCore
 #endif
 
 /// Boolean filter applied to the A/B test population. Each filter targets a boolean metric and decides whether to

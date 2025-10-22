@@ -3,7 +3,7 @@
 
 import Foundation
 #if canImport(Core)
-    import Core
+    import AlgoliaCore
 #endif
 
 /// Injected items will originate from a search request performed on the specified index.

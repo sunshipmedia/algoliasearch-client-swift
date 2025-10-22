@@ -3,7 +3,7 @@
 
 import Foundation
 #if canImport(Core)
-    import Core
+    import AlgoliaCore
 #endif
 
 /// Deduplication positioning configures how a duplicate result should be resolved between an injected item and main

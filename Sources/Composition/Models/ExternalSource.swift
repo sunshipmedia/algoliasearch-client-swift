@@ -3,7 +3,7 @@
 
 import Foundation
 #if canImport(Core)
-    import Core
+    import AlgoliaCore
 #endif
 
 /// Injected items will originate from externally provided objectIDs (that must exist in the index) given at runtime in

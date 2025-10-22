@@ -91,7 +91,7 @@ products.append(
 let package = Package(
     name: "AlgoliaSearchClient",
     platforms: [
-        .iOS(.v14),
+        .iOS(.v16),
         .macOS(macOSVersion),
         .tvOS(.v14),
         .watchOS(.v7),
